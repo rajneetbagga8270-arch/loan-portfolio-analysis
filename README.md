@@ -1,78 +1,106 @@
-# Loan Portfolio Analysis & Risk Dashboard
+# Loan Portfolio Analysis & Credit Risk Dashboard
 
-An end-to-end data analytics project analyzing loan portfolio performance,
-credit risk, funding trends, and borrower behavior using SQL, Python, Excel,
-and Power BI.
+An end-to-end data analytics project exploring loan portfolio performance, credit risk, funding patterns, and borrower characteristics using SQL, Python, Excel, and Power BI.
 
-## Project Overview
+## 1. Project Overview
 
-This project analyzes loan-level data to identify patterns in loan
-performance, borrower characteristics, funding exposure, and credit risk.
+The objective of this project is to analyze loan-level data and understand the financial performance and risk exposure of a lending portfolio.
 
-The analysis combines data cleaning, exploratory analysis, SQL querying,
-KPI development, and interactive Power BI visualization.
+The project uses data analysis and visualization techniques to identify loan performance patterns, evaluate credit risk, and understand borrower and funding trends.
 
-## Tools & Technologies
+## 2. Tools & Technologies
 
-- SQL
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Excel
-- Power BI
-- DAX
+- SQL – Data querying and analysis
+- Python – Data analysis and preprocessing
+- Pandas & NumPy – Data manipulation
+- Matplotlib – Data visualization
+- Excel – Data exploration and preparation
+- Power BI – Interactive dashboards
+- DAX – KPI calculations and measures
 
-## Key Analysis
+## 3. Business Objectives
 
-- Loan portfolio performance
-- Good vs. bad loan analysis
-- Funded amount by loan grade
-- Monthly funding trends
-- Loan status distribution
-- Interest rate and installment analysis
-- Borrower and credit-risk patterns
-- Portfolio exposure and performance KPIs
+- Evaluate overall loan portfolio performance.
+- Analyze good loans and bad loans.
+- Understand funding distribution across loan grades.
+- Identify monthly lending trends.
+- Examine loan repayment status.
+- Explore borrower characteristics and credit risk.
+- Understand portfolio funding exposure.
 
-## Dashboard
+## 4. SQL Analysis
 
-The Power BI dashboard provides an interactive view of:
+The project includes 10 beginner-friendly SQL queries covering:
 
-- Total Funded Amount
+1. Total Loan Applications
+2. Total Loan Amount
+3. Total Funded Amount
+4. Average Loan Amount
+5. Average Funded Amount vs. Requested Amount
+6. Loan Status Distribution
+7. Loan Status and Funded Amount
+8. Portfolio Percentage by Loan Status
+9. Good Loans vs. Bad Loans
+10. Good Loan and Bad Loan Percentage
+
+Each query includes a brief explanation of its business purpose.
+
+## 5. Power BI Dashboard
+
+The interactive dashboard presents important portfolio KPIs and visual analysis.
+
+### Key Performance Indicators
+
 - Total Loan Applications
-- Total Received Amount
+- Total Funded Amount
+- Total Amount Received
 - Average Interest Rate
-- Average DTI
-- Good vs. Bad Loans
-- Funding by Grade
-- Monthly Funding Trends
+- Average Debt-to-Income Ratio
+- Good Loan Applications
+- Bad Loan Applications
+
+### Dashboard Analysis
+
 - Loan Status Distribution
+- Good Loan vs. Bad Loan Analysis
+- Funded Amount by Loan Grade
+- Monthly Funding Trends
+- Loan Term Analysis
+- Borrower and Loan Characteristics
 
-## Project Workflow
+### Dashboard Screenshots
 
-1. Data collection and understanding
-2. Data cleaning using Python/Excel
-3. Exploratory Data Analysis
-4. SQL-based analysis
-5. KPI development
-6. Power BI dashboard development
-7. Business insights and conclusions
+Add your actual Power BI dashboard screenshots here.
 
-## Business Insights
+## 6. Key Business Insights
 
-The analysis helps understand:
+This section highlights findings derived from the SQL analysis and Power BI dashboard.
 
-- Overall loan portfolio health
-- Credit-risk exposure
-- Loan performance trends
-- Funding patterns across grades
-- Changes in portfolio activity over time
+- Loan portfolio performance and repayment distribution.
+- Funding concentration across different loan grades.
+- Changes in monthly loan funding activity.
+- Differences in loan performance across borrower categories.
+- Credit risk exposure across loan segments.
 
-## Repository Structure
+*Add verified numerical findings from your analysis to strengthen this section.*
 
-```text
-Data/       → Dataset and data dictionary
-Python/     → Python analysis notebooks
-SQL/        → SQL queries
-Power BI/   → Interactive dashboard
+## 7. Project Workflow
+
+1. Data collection and understanding.
+2. Data cleaning and preprocessing.
+3. Exploratory Data Analysis.
+4. SQL-based business analysis.
+5. KPI development.
+6. Power BI dashboard creation.
+7. Interpretation of business insights.
+
+## 8. Repository Structure
+
+Update this section to reflect your actual GitHub folder structure.
+
+## 9. Conclusion
+
+This project demonstrates how SQL, Python, and Power BI can be used together to analyze lending data, monitor portfolio performance, and identify potential credit-risk patterns.
+
+The analysis provides a data-driven perspective on loan funding, repayment behavior, and portfolio exposure.
 
